@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1495059851921508266}
-  - component: {fileID: 5360151364932277772}
+  - component: {fileID: -7218346551179760219}
   m_Layer: 0
   m_Name: WebSocketManager
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5360151364932277772
+--- !u!114 &-7218346551179760219
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,6 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7126644409544447947}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41410a53b61bca540b5f0a7dc18154ac, type: 3}
+  m_Script: {fileID: 11500000, guid: a6e73a2ca4b128b498f4637adc194bea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  serverUrl: ws://192.168.0.100:8765
